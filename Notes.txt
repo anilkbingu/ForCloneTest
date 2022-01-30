@@ -1,0 +1,24 @@
+CI Tools:
+
+Jenkins
+Circle I
+Bamboo
+GitLabs
+
+Used to build and test the code once its pushed to the code repository
+
+CD Tools:
+Chef
+Puppet
+Above 2 are for deployment of this patches to servers. - these use Ruby language- its relatively difficult.
+And above 2 use pull mechanism.
+And it needs to installed in master and children.
+
+Ansible = this is used to push the patch from master = and its uses YAML langauge. its easy
+Pushing patches from Master to 100s of child/slave servers. 
+Needs to be installed only in master.
+
+Git is local and distributed
+GitHub is centralized... from git you commit to github.
+
+Git and Github are different companies
